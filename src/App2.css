@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    margin: 15px auto;
+    padding: 10px;
+    background: #d2d2d2;
+    width: 80%;
+    box-shadow: 1px 1px 3px 1px black;
+}
+img {
+    margin-right: 10px;
+}
+.preloader-cont{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(red 5%, black 20%, transparent);
+}
+.text{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 48px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
